@@ -1,9 +1,9 @@
 package com.company.project.interfaces;
 
-public interface Food {
+public abstract class Food {
 
-  String name();
+  protected abstract String name();
 
-  String type();
+  protected abstract String type();
 
 }
