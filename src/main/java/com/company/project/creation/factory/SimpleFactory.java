@@ -10,13 +10,11 @@ import com.company.project.interfaces.impl.PorkFood;
  */
 public class SimpleFactory {
 
-  public static Food makeFood(String foodType) {
-    if (FoodEnum.FRUIT.getName().equals(foodType)) {
-      Food fruitFood = new AppleFood("苹果");
-      return fruitFood;
-    } else if (FoodEnum.MEAT.getName().equals(foodType)) {
-      Food meatFood = new PorkFood("猪肉");
-      return meatFood;
+  public static Food makeFood(FoodEnum foodEnum) {
+    if (FoodEnum.FRUIT.getName().equals(foodEnum.getName())) {
+      return new AppleFood(foodEnum.getNameCH());
+    } else if (FoodEnum.MEAT.getName().equals(foodEnum.getName())) {
+      return new PorkFood(foodEnum.getNameCH());
     } else {
       return null;
     }
