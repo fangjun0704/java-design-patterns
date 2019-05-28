@@ -1,4 +1,4 @@
-package com.company.project.structure;
+package com.company.project.structure.proxy;
 
 import com.company.project.interfaces.Food;
 import com.company.project.interfaces.impl.PorkFood;

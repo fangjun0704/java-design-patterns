@@ -22,6 +22,13 @@ public class PorkFood extends Food {
     return "porkType";
   }
 
+  /**
+   * 肉食专有的方法
+   */
+  public String pork() {
+    return "PorkFood专有的方法 ::: pork()";
+  }
+
   @Override
   public String toString() {
     return "PorkFood{" +

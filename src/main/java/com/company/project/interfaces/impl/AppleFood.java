@@ -22,6 +22,13 @@ public class AppleFood extends Food {
     return "appleType";
   }
 
+  /**
+   * 果食专有的方法
+   */
+  public String apple() {
+    return "AppleFood专有的方法 ::: apple()";
+  }
+
   @Override
   public String toString() {
     return "AppleFood{" +
