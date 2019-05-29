@@ -6,7 +6,7 @@ import com.company.project.interfaces.impl.PorkFood;
 /**
  * 这是一个代理 Food真实类 的代理类
  */
-public class FoodProxy extends Food {
+public class FoodProxy implements Food {
 
   private Food food;
 

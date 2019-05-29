@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
-public class PorkFood extends Food {
+public class PorkFood implements Food {
 
   private String name;
 
