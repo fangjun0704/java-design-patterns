@@ -20,7 +20,7 @@ public class FoodProxy implements Food {
     String name = food.name();
     System.out.println(name);
 
-    //这里可以更改 被代理类的逻辑（这一个功能类似spring中的aop功能）
+    //这里可以更改 被代理类的逻辑（这一个功能类似spring中的aop功能）//方法增强
     name = "change name:::FoodProxy name";
     System.out.println(name);
     return name;
