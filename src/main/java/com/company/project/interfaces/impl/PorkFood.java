@@ -14,12 +14,12 @@ public class PorkFood implements Food {
 
   @Override
   public String name() {
-    return "porkName";
+    return "PorkFood:::name()";
   }
 
   @Override
   public String type() {
-    return "porkType";
+    return "PorkFood:::type()";
   }
 
   /**

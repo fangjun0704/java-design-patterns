@@ -14,12 +14,12 @@ public class AppleFood implements Food {
 
   @Override
   public String name() {
-    return "appleName";
+    return "AppleFood:::name()";
   }
 
   @Override
   public String type() {
-    return "appleType";
+    return "AppleFood:::type()";
   }
 
   /**
