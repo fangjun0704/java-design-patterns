@@ -2,7 +2,7 @@ package com.company.project.structure.decorator;
 
 import com.company.project.interfaces.Tea;
 
-public class Mango extends condiment {
+public class Mango extends Condiment {
 
 
   private Tea tea;

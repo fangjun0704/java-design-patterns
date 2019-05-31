@@ -5,6 +5,6 @@ import com.company.project.interfaces.Tea;
 /**
  * 这是一个 抽象类
  */
-public abstract class condiment extends Tea {
+public abstract class Condiment extends Tea {
 
 }
