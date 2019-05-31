@@ -3,7 +3,7 @@ package com.company.project.behavior;
 import com.company.project.interfaces.Food;
 
 /**
- * 与 策略模式( AbstractFood ) 很类似
+ * 与 桥梁模式( AbstractFood ) 很类似
  */
 public class StrategyFood {
 
