@@ -1,4 +1,4 @@
-package com.company.project.behavior;
+package com.company.project.behavior.strategy;
 
 import com.company.project.interfaces.Food;
 
@@ -9,7 +9,7 @@ public class StrategyFood {
 
   private Food food;
 
-  protected StrategyFood(Food food) {
+  public StrategyFood(Food food) {
     this.food = food;
   }
 

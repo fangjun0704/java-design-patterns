@@ -1,5 +1,10 @@
-package com.company.project.creation.factory;
+package com.company.project.creation;
 
+import com.company.project.creation.builder.User;
+import com.company.project.creation.factory.FruitFoodFactory;
+import com.company.project.creation.factory.IosPhoneFactory;
+import com.company.project.creation.factory.SimpleFactory;
+import com.company.project.creation.singleton.Singleton;
 import com.company.project.entity.FoodEnum;
 import com.company.project.entity.Phone;
 import com.company.project.interfaces.FoodFactory;
@@ -7,7 +12,7 @@ import com.company.project.interfaces.PhoneCpu;
 import com.company.project.interfaces.PhoneFactory;
 import com.company.project.interfaces.PhoneSystem;
 
-public class Main {
+public class CreationMain {
 
   public static void main(String[] args) {
     //简单工厂模式
@@ -33,5 +38,13 @@ public class Main {
      * 工厂模式就会出现这种不兼容的问题
      */
 
+    //单例模式
+    System.out.println(Singleton.getInstance().hashCode());
+    System.out.println(Singleton.getInstance().hashCode());
+
+    //建造者模式
+    User user = User.builder().name("name").age(2).build();
+    System.out.println(user);
   }
+
 }
