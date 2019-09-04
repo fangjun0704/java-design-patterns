@@ -2,7 +2,7 @@ package com.company.project.structure.decorator;
 
 import com.company.project.interfaces.Tea;
 
-public class BlackTea extends Tea {
+public class BlackTea implements Tea {
 
   /**
    * 茶名

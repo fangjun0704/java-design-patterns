@@ -1,6 +1,5 @@
 package com.company.project.structure.adapter;
 
-import com.company.project.interfaces.Food;
 import com.company.project.interfaces.impl.PorkFood;
 
 /**
@@ -8,6 +7,6 @@ import com.company.project.interfaces.impl.PorkFood;
  *
  * PortFoodAdaptorClass 中有 PorkFood 中所有的方法
  */
-public class PortFoodAdaptorClass extends PorkFood implements Food {
+public class PortFoodAdaptorClass extends PorkFood {
 
 }

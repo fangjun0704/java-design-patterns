@@ -8,7 +8,7 @@ import java.util.Date;
 public class Singleton {
 
   /**
-   * 禁止在其它地方 new Singleton2()
+   * 禁止在其它地方 new Singleton()
    */
   private Singleton() {
   }

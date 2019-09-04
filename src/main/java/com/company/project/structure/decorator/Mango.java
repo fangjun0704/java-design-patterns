@@ -2,13 +2,11 @@ package com.company.project.structure.decorator;
 
 import com.company.project.interfaces.Tea;
 
-public class Mango extends Condiment {
+public class Mango extends AbsCondiment {
 
-
-  private Tea tea;
 
   public Mango(Tea tea) {
-    this.tea = tea;
+    super(tea);
   }
 
   /**

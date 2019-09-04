@@ -1,14 +1,14 @@
 package com.company.project.interfaces;
 
-public abstract class Tea {
+public interface Tea {
 
   /**
    * 茶名
    */
-  public abstract String name();
+  String name();
 
   /**
    * 价钱
    */
-  public abstract double price();
+  double price();
 }
