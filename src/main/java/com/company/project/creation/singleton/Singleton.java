@@ -20,7 +20,7 @@ public class Singleton {
     return instance;
   }
 
-  // 如果调用 Singleton2.getDate()，这里会触发生成 Singleton2 实例的
+  // 如果调用 Singleton.getDate()，这里会触发生成 Singleton 实例的
   public static Date getDate() {
     return new Date();
   }
